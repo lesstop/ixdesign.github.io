@@ -586,7 +586,7 @@ select:focus {
   background: #152545;
 }
 .main-menu {
-  float: left;
+  float: right;
   position: relative;
 }
 .main-menu .navbar-collapse {
