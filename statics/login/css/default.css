@@ -1,0 +1,256 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{	margin:0 auto;	padding:0;  }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,img,span,p,blockquote,th,td{
+	margin: 0;	padding: 0;}
+h1,h2,h3,h4,h5,h6 {	font-size: 100%;}
+ul,li{	margin:0; 	padding:0; 	list-style-type:none;}
+/*img,input{border:none;}*/
+a{text-decoration:none !important;}
+.clear{ clear:both;}
+.f_left{ float:left;}
+.f_right{ float:right;}
+body{ font-family: "微软雅黑",Arial; font-weight:75%; color:#666;}
+
+.topbar{ border-top:2px solid #c30d23; border-bottom:1px solid #dddddd; background:#f8f8f8; width:100%; float:left; height:35px; line-height:35px; color:#666666; font-size:12px;}
+.main{ margin:0 auto; width:1000px; height:auto; overflow:hidden;}
+.topbar span{ padding-left:10px;}
+.topbar a{ padding:0 8px;color:#666666; font-size:12px;}
+.topbar a:hover{ padding:0 8px;color:#c30d23; font-size:12px;}
+.topbar span.clhong{ color:#c30d23; font-size:12px;}
+.topbar span.clhong a{ color:#c30d23; font-size:12px; padding:0;}
+.topbar span.mrduo{ margin-right:25px;}
+.logo1{ width:262px; float:left; padding-top:30px;}
+.searchs{ float:left; width:600px; padding-top:30px; height:96px;}
+.souk{ border:2px solid #188eee; float:left; width:450px; height:34px;background:#188eee;}
+.souip{ float:left; width:380px;*width:374px; height:32px;_height:36px;line-height:32px; padding:0 5px; border:1px solid #fff;font-size:14px; background:#fff;}
+.soubtns{display:block; float:left; width:57px; height:34px;}
+.resou{ font-size:12px;color:#666666; padding-top:10px; float:left; width:360px; clear:both;}
+.resou a{ padding:0 5px;color:#c30d23; font-size:12px;}
+.phone{ float:left; padding-top:30px; font-size:0; color:#FFF; width:138px; height:auto; overflow:hidden;}
+
+.navbk{ background:#c30d23; width:100%; line-height:43px; height:43px; font-size:16px; color:#fff; text-align:center;}
+.navbk a{display:block; padding:0 18px; float:left;line-height:43px; height:43px;  font-size:16px; color:#fff; }
+.navbk a:hover{ padding:0 18px;  float:left;line-height:43px; height:43px;  font-size:16px; color:#fff; background:#7f0312; }
+.navbk a.navding{ padding:0 18px;  float:left;line-height:43px; height:43px;  font-size:16px; color:#fff; background:#7f0312; }
+.shou{ width:1000px;  margin:0 auto;}
+
+.main01{ width:750px; float:left;}
+.ttblock{ float:left; width:100%; background:url(../images/gaiban2016-02-23/ttdivbj.jpg) left bottom repeat-x;}
+.ttblock span{ float:left; margin-left:14px; background:url(../images/gaiban2016-02-23/ttspanbj.jpg) repeat-x left bottom; padding-bottom:8px; font-size:18px; color:#000000;}
+
+.ywzximg{ float:left; padding-top:20px;}
+.ywzximg img{ border:1px solid #f0f0f0; width:233px; height:134px;}
+.ywli{ float:left; width:235px; height:136px; padding-left:22px; padding-top:20px;}
+.ywlitt{ float:left; width:100%; padding-bottom:13px; color:#d96573; font-size:14px;}
+.ywlitt img{ float:left; margin-right:5px;}
+.liyw{ width:233px; float:left;}
+.liyw li a{ width:220px; padding-left:13px; height:24px; line-height:24px; background:url(../images/gaiban2016-02-23/dot_hui.jpg) no-repeat left center; font-size:12px; color:#666; overflow:hidden; float:left;}
+.liyw li a:hover{ width:220px;padding-left:13px; height:24px; line-height:24px; background:url(../images/gaiban2016-02-23/dot_hong.jpg) no-repeat left center; font-size:12px; color:#c30d23;overflow:hidden; float:left;}
+
+.pdblock{ float:left; width:174px; height:132px; border:1px solid #dbdbdb; background:#f5f4f4; margin-top:15px; margin-right:15px; overflow:hidden;}
+.pdblock2{ float:left; width:174px; height:132px; border:1px solid #dbdbdb; background:#f5f4f4; margin-top:15px; margin-right:0;  overflow:hidden;}
+
+.pdname{ width:108px; padding-top:14px; padding-bottom:8px; margin:13px 0 7px 33px; background:#d0e9fe; border-bottom:4px solid #188eee; font-size:18px; color:#188eee; text-align:center;}
+.pdname2{ width:108px; padding-top:14px; padding-bottom:8px; margin:13px 0 7px 33px; background:#ffd3c6; border-bottom:4px solid #fa4400; font-size:18px; color:#fa4400; text-align:center;}
+.pdname3{ width:108px; padding-top:14px; padding-bottom:8px; margin:13px 0 7px 33px; background:#cee2ed; border-bottom:4px solid #489dcc; font-size:18px; color:#489dcc; text-align:center;}
+.pdname4{ width:108px; padding-top:14px; padding-bottom:8px; margin:13px 0 7px 33px; background:#fbd7d7; border-bottom:4px solid #b61918; font-size:18px; color:#b61918; text-align:center;}
+
+.tibook{ float:left; margin-left:15px; font-size:14px; color:#000;}
+.tibook a{ font-size:14px; color:#000; padding:0 8px; margin-bottom:10px; float:left;}
+.tibook a:hover{ font-size:14px; color:#666; padding:0 8px; margin-bottom:10px; float:left; width:56px;}
+
+.main02{width:234px; float:right}
+.more{ float:right; margin-top:10px; margin-right:7px;}
+.more_xin{float:right; margin-top:5px; margin-right:7px; font-size:14px; color:#666;}
+.more_xin:hover{color:#c30d23;}
+
+
+/* kinMaxShow */
+#kinMaxShow{display:none;}
+
+
+.jzctimg{ float:left; clear:both; margin-top:16px;}
+.httblock{ width:100%; background:url(../images/gaiban2016-02-23/tt2divbj.jpg) repeat-x left top; clear:both; margin-top:26px; height:40px;}
+.httblock span{ float:left; text-align:center; font-size:18px; line-height:40px; color:#fff; border-right:2px solid #fff; background:#c30d23; padding:0 20px;}
+
+.main03{width:234px; float:left; padding-top:20px;}
+.liyw2{ width:235px; float:left; padding:12px 0;}
+.liyw2 li a{ width:222px; padding-left:13px; height:24px; line-height:24px; background:url(../images/gaiban2016-02-23/dot_hui.jpg) no-repeat 2px center; font-size:12px; color:#666; overflow:hidden; float:left;}
+.liyw2 li a:hover{ width:222px;padding-left:13px; height:24px; line-height:24px; background:url(../images/gaiban2016-02-23/dot_hong.jpg) no-repeat 2px center; font-size:12px; color:#c30d23;overflow:hidden; float:left;}
+.main04{ float:left; width:502px; padding-left:13px;padding-top:20px;}
+.keli{ float:left; width:502px;margin-top: 25px}
+.keli li{ float:left; width:251px; padding-top:13px; text-align:center;}
+.keli li div.btndiv{ padding-top:10px;}
+.keli li div.btndiv a{ text-align:center; padding:0 10px;}
+
+.nTab{float: right;width:235px; padding-top:20px; overflow:hidden;}
+.TabTitle{ float:left;clear: both;height:37px; width:235px;overflow: hidden; background:url(../images/gaiban2016-02-23/tabli01.jpg) repeat-x left bottom;}
+.TabTitle ul{margin:0;padding:0;}	
+.Tab_li li{float: left;width:117px;cursor: pointer;list-style-type: none;font-size: 18px;text-align: center; padding-bottom:14px;}
+.active2{ float:left;width:117px; height:23px;color:#c30d23; background:url(../images/gaiban2016-02-23/tabli02.jpg) no-repeat left bottom; padding-bottom:14px;}
+.normal2{float:left;width:117px;height:23px;color:#000000;}
+.TabContent	{width:auto;margin: 0px auto;clear:both;font-size:12px;color:#666666;text-align:left;}
+.none {display:none;}
+
+.liyw3{ width:235px; float:left; padding:5px 0;}
+.liyw3 li a{ width:222px; padding-left:13px; height:24px; line-height:24px; background:url(../images/gaiban2016-02-23/dot_hui.jpg) no-repeat 2px center; font-size:12px; color:#666; overflow:hidden; float:left;}
+.liyw3 li a:hover{ width:222px;padding-left:13px; height:24px; line-height:24px; background:url(../images/gaiban2016-02-23/dot_hong.jpg) no-repeat 2px center; font-size:12px; color:#c30d23;overflow:hidden; float:left;}
+.subgg{ padding-top:10px; clear:both; float:left;}
+.laoshi{ float:left; width:1000px; height:230px; padding:10px 0;}
+.hleft{ float:left; margin-right:2px; height:164px; padding-top:66px;}
+.hright{ float:right;height:164px; padding-top:66px;}
+
+.mslist{ float:left; width:908px; height:230px; overflow:hidden; }
+.mslist li{ float:left; width:168px; height:230px; margin:0 5px 0 8px ; background:#feecee; text-align:center;}
+.mslist li img{ margin:13px 0 0 0;}
+.mslist li div{ font-size:14px; color:#000;}
+.mslist li p{ float:left; text-align:left; font-size:12px; color:#403b3c; padding:5px 10px; line-height:22px;}
+
+.zjqd{ float:left; padding:20px 0; width:1000px;overflow:hidden; height:330px;}
+.zjqd01{ float:left; width:495px; overflow:hidden; }
+.zjqd02{ float:right;width:497px; overflow:hidden;}
+
+.jigou_kt_wrap{ width:495px; height:277px; background:#dbdbdb; overflow:hidden;}
+.jgry_b{ margin:10px auto; width:474px; height:257px; overflow:hidden; position:relative;}
+.jgry_b ul{ height:257px; }
+.jgry_b ul li{ float:left;width:474px; height:257px; position:relative; display:none;}
+.jgry_b ul li.now{ display:block;}
+.jgry_b ul li .txt{ position:absolute; bottom:0;left:0; width:454px; height:30px; background:url(../images/gaiban2016-02-23/banner_bg0.png) repeat-x; line-height:30px; padding-left:20px; font-size:12px;color:#fff; }
+.jgry_b ol{ position:absolute; right:0; bottom:0; margin-right:20px; margin-bottom:12px; }
+.jgry_b ol li{ width:5px; height:5px; border-radius:50%; margin-left:10px; background:#fff; float:left; cursor:pointer;}
+.jgry_b ol li:hover{ background:#188eee;}
+.jgry_b ol li.now{background:#188eee; }
+
+.ktfc_b{ margin:10px auto; width:474px; height:257px; overflow:hidden; position:relative;}
+.ktfc_b ul{ height:257px; }
+.ktfc_b ul li{ float:left;width:474px; height:257px; position:relative; display:none;}
+.ktfc_b ul li.now1{ display:block;}
+.ktfc_b ul li .txt{ position:absolute; bottom:0;left:0; width:454px; height:30px; background:url(../images/gaiban2016-02-23/banner_bg0.png) repeat-x; line-height:30px; padding-left:20px; font-size:12px;color:#fff; }
+.ktfc_b ol{ position:absolute; right:0; bottom:0; margin-right:20px; margin-bottom:12px; }
+.ktfc_b ol li{ width:5px; height:5px; border-radius:50%; margin-left:10px; background:#fff; float:left; cursor:pointer;}
+.ktfc_b ol li:hover{ background:#188eee;}
+.ktfc_b ol li.now1{background:#188eee; }
+
+
+
+
+
+.hzhb{ padding:10px 0; float:left; clear:both; }
+.hzhb a{ float:left;  width:127px; height:53px; padding:5px 0 5px 14px;}
+.yqlj{ padding:10px 0; float:left; clear:both; width:1000px; height:120px;}
+.yqlj a{ padding:5px 5px 5px 5px; font-size:14px; color:#000; line-height:2.2;}
+.hz2wm{ width:100%; background:#f9f9f9; border-top:1px solid #e8e8e8; clear:both; padding:22px 0; margin-top:20px; position:relative; z-index:1;}
+.hz2wm a{ float:left; width:131px; height:47px; line-height:47px; text-align:center; margin:48px 0 0 20px; font-size:18px !important; color:#fff !important; background:#c30d23;}
+.mainhz{ margin:0 auto; width:980px; padding:0 10px;}
+.footer{ text-align:center; padding:20px 0; border-top:2px solid #c30d23; line-height:2; color:#3a3a3a; font-size:12px;}
+.footer2{ text-align:center; padding:20px 0;  line-height:2; color:#fff; font-size:12px; background:#052e52; clear:both;}
+
+.nTab4{float: right;width:1000px; padding-top:20px; overflow:hidden; clear:both;}
+.TabTitle4{ float:left;clear: both;height:37px; width:980px; padding-left:20px;overflow: hidden; background:url(../images/gaiban2016-02-23/tabli01a.jpg) repeat-x left bottom;}
+.TabTitle4 ul{margin:0;padding:0;}	
+.Tab_li4 li{float: left;width:100px;cursor: pointer;list-style-type: none;font-size: 18px;text-align: center; padding-bottom:14px;}
+.active4{ float:left;width:100px; height:23px;color:#c30d23; background:url(../images/gaiban2016-02-23/tabli02a.jpg)  repeat-x left bottom; padding-bottom:14px;}
+.normal4{float:left;width:100px;height:23px;color:#000000;}
+.none {display:none;}
+
+
+.top01{position:absolute; right:50px; background:none; width:auto;}
+
+.main05{width:234px; margin-right:13px; height:216px; overflow:hidden;}
+.ttblock1{ float:left; width:100%; background:url(../images/gaiban2016-02-23/ttdivbj.jpg) left bottom repeat-x;}
+.ttblock1 span{ float:left; margin-left:14px; background:url(../images/gaiban2016-02-23/ttspanbj.jpg) repeat-x left bottom; padding-bottom:8px; font-size:18px; color:#000000;}
+
+.main06{width:753px;}
+.main06 a{ display:block; float:left; margin-right:24px;}
+
+.tzgg_lan{ margin-top:25px; margin-bottom:25px;}
+.tzgg{ padding-top:10px; width:233px; float:left;}
+.tzgg li a{ width:220px; padding-left:13px; height:24px; line-height:24px; background:url(../images/gaiban2016-02-23/dot_hui.jpg) no-repeat left center; font-size:12px; color:#666; overflow:hidden; float:left;}
+.tzgg li a:hover{ width:220px;padding-left:13px; height:24px; line-height:24px; background:url(../images/gaiban2016-02-23/dot_hong.jpg) no-repeat left center; font-size:12px; color:#c30d23;overflow:hidden; float:left;}
+
+.banner{ width:100%;  height:356px; overflow:hidden; background:#013240 top center; margin-top:15px; position:relative; }
+.banner_main0{width:1000px; margin:0 auto;}
+.banner_cont{ position:absolute; width:1000px; height:356px; margin:0 auto; top:0; z-index:2}
+.main07{width:234px; margin-right:13px; height:356px; overflow:hidden;  background:#e4e4e4; float:left; }
+.kcml{ padding-top:10px; width:233px; height:auto; overflow:hidden;}
+.kcml li{ width:207px; padding:0px 13px; height:auto; font-size:12px; color:#666; overflow:hidden;}
+
+.kcml_biaoti1{ background:url(../images/gaiban2016-02-23/gcss_icon.jpg) no-repeat left top; height:22px; padding-left:27px; text-align:left; margin-bottom:7px; }
+.kcml_biaoti1 span{ display:block; font-size:14px; color:#000; padding-top:3px;}
+.kcml_cont1{ margin-bottom:10px; width:233px; height:auto; overflow:hidden;}
+.kcml_cont1 a{color:#666666; float:left; width:51px; text-align:left; display:block;}
+.kcml_cont1 a:hover{ color:#188eee; }
+.kcml_biaoti2{ background:url(../images/gaiban2016-02-23/mba_icon.png) no-repeat left top; height:22px; padding-left:27px; text-align:left; margin-bottom:6px; }
+.kcml_biaoti2 span{ display:block; font-size:14px; color:#000; padding-top:3px;}
+.kcml_biaoti3{ background:url(../images/gaiban2016-02-23/tdxl_icon.jpg) no-repeat left top; height:22px; padding-left:27px; text-align:left; margin-bottom:6px; }
+.kcml_biaoti3 span{ display:block; font-size:14px; color:#000; padding-top:3px;}
+.kcml_biaoti4{ background:url(../images/gaiban2016-02-23/ky_icon.jpg) no-repeat left top; height:22px; padding-left:27px; text-align:left; margin-bottom:6px; }
+.kcml_biaoti4 span{ display:block; font-size:14px; color:#000; padding-top:3px;}
+.kcml_biaoti1 a{ font-size:14px; color:#000; }
+.kcml_biaoti2 a{ font-size:14px; color:#000; }
+.kcml_biaoti3 a{ font-size:14px; color:#000; }
+.kcml_biaoti4 a{ font-size:14px; color:#000; }
+
+.kcml_cont2{ margin-bottom:7px;*margin-bottom:2px;  width:233px; height:auto; overflow:hidden; line-height:1.6;}
+.kcml_cont2 a{ color:#666666; float:left; width:68px; text-align:left; display:block; line-height:1.6;}
+.kcml_cont2 a:hover{ color:#188eee; }
+
+.main08{width:503px; margin-right:13px; height:25px; overflow:hidden;  float:left; padding-top:288px; }
+.main08 li{ float:left; width:123px; height:25px;  margin-right:3px; background:#fff;  color:#666666; }
+.main08 a{ float:left; width:123px; height:25px;  background:#fff;  color:#666666;}
+.main08 a:hover{width:123px; height:25px;  background:#c30d23; color:#fff;}
+
+.main09{ background:url(../images/gaiban2016-02-23/xydu_bg.png) no-repeat left top; text-align:center; width:219px; height:148px; float:right; margin-top:35px; padding:14px 0px 0px 16px;}
+.ttblock2{ width:100%;}
+.ttblock2 span{ display:block; font-size:14px; color:#c30d23; margin-bottom:18px; text-align:left;}
+.xydl_input1{ width:158px; height:24px; background:url(../images/gaiban2016-02-23/xydl_inputbg1.jpg) no-repeat left top; display:block; border:1px solid #cbaeb2; padding-left:40px; padding-top:3px;   font-size:12px; color:#a9a9a9; font-family:"微软雅黑";}
+.xydl_input2{ width:158px; height:24px; background:url(../images/gaiban2016-02-23/xydl_inputbg2.jpg) no-repeat left top; display:block; border:1px solid #cbaeb2; padding-left:40px; padding-top:3px;  font-size:12px; color:#a9a9a9; font-family:"微软雅黑";}
+
+.xydl_anniu{ margin-top:13px;}
+.dl_anniu{ float:left; width:67px; height:28px; background:#c30d23; color:#fff; margin-right:47px;}
+.dl_anniu input{ display:block;  width:67px; height:25px;  background:#c30d23; color:#fff; padding-top:3px; }
+.zc_anniu{ float:left; width:93px; height:11px; font-size:12px; color:#666666; padding-top:5px;  }
+.zc_anniu a{color:#666666;}
+
+
+
+/*20160311*/
+#dailiBanner2 {
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background:url(../images/20160317TL.jpg) no-repeat 50% 0;
+}
+#dailiClose2 {
+    width: 22px;
+    height: 21px;
+    position: absolute;
+    left: 50%;
+    top: 5px;
+    margin-left: 480px;
+	display:block;
+}
+
+#dailiLink2{ width:1920px; height:100px; cursor:pointer; display:block;}
+
+
+/*名师风采*/
+.byxy{ width:1000px; height:240px; margin-top:10px;}
+.prev { width:30px; height:100px; margin-right:10px; margin-top:66px; float:left; overflow:hidden; cursor:pointer;}
+.next { width:30px; height:100px;  margin-top:66px; float:right; overflow:hidden; cursor:pointer;}
+.tupian{ width:930px; height:230px; overflow:hidden; float:left;}
+.tupian ul{ display:block; width:1500px;}
+.tupian ul li{ float:left; width:168px; height:230px; display:block; margin-left:15px; overflow:hidden;}
+
+
+/******gaodan底部新增开始*********/
+.footer a{  color:#3a3a3a;}
+.footer img{margin-bottom:-4px;}
+.footer_nav a{ padding:0 15px;}
+.footer_nav a:hover{color:#c30c22;}
+/******gaodan底部新增结束********/

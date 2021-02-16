@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  padding: 0px;
+  margin: 0px;
+  transition: all;
+  box-sizing: border-box;
+}
+/*img{display:block;}*/
+/*input{border:0;}*/
+.clear{clear:both;}
+body{font-size: 12px;
+    line-height: 25px;
+    width: 100%;
+    max-width: 1920px;
+    min-width: 1260px;
+    margin: 0 auto;
+background: #f8f8f8;}
+.dl_banner{
+	width:100%;
+	height:492px;
+	background:url(../images/2021-001.jpg) no-repeat center center;
+	/*margin:35px 0 50px;*/
+}
+.center{
+	width:1000px;
+	margin:0 auto;
+}
+.login{
+	width:340px;
+	height:370px;
+	background:#FFF;
+	float:right;
+	border:1px solid #bac1c5;
+	margin: 60px auto 0;
+}
+.login h3{
+	font-size:22px;
+	color:#303030;
+	text-align:center;
+	line-height:85px;
+	font-weight:normal;
+}
+.login input{
+	width:290px;
+	height:44px;
+	border:1px solid #cdcdcd;
+	line-height:44px;
+	font-size:15px; 
+	color:#a8a8a8;
+	margin-left:23px;
+	padding-left:50px;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.user{
+	margin-bottom:22px;
+	background:url(../images/02user.jpg) no-repeat 18px 12px;
+}
+.key{
+	margin-bottom:34px;
+	background:url(../images/03key.jpg) no-repeat 18px 12px;
+}
+.zddl_anniu{
+	width:150px;
+	float:left;
+}
+.zddl_anniu .check{
+	width:15px;
+	height:15px;
+	vertical-align: middle;
+	margin-right:5px;
+	padding-left:0px;
+}
+.wjmm_anniu{
+	margin-right:23px;
+	width:120px;
+	float:right;
+}
+.login a{
+	font-size:13px;
+}
+.dl_anniu{
+	width:290px;
+	height:44px;
+	text-align:center;
+	background:#c40f19;
+	margin-top:10px;
+	border:1px solid #92080f;
+	margin-left:23px;
+}
+.dl_anniu input{
+	display:block;
+
+	text-decoration:none;	
+	width:240px;
+	height:44px;
+	border:1px solid #c40f19;
+	line-height:44px;
+	font-size:24px; 
+	color:#FFF;
+	margin-left:23px;
+	padding-left:0px;
+	overflow:hidden;
+}
+/*新增*/
+.top-line{
+	background: #00559b;
+    height: 15px;
+    clear: both;
+}
+.logo{
+	width: 1260px;
+    height: 130px;
+    clear: both;
+    position: relative;
+    font-family: 微软雅黑;
+    font-weight: normal;
+    font-size: 28px;
+    background: url(../images/logo3.png) left center no-repeat;
+    margin: 0px auto;
+    padding: 65px 0px 0px 345px;
+}
+.logo  span{ float:right; font-size:14px; font-weight:normal;color:#c3282e; height:15px; line-height:15px;}
+.logo  span a{ color:#c3282e; text-decoration:none; padding:0px 10px;}
+@-webkit-keyframes logo-ani {
+  from {
+    top: -20px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+@keyframes logo-ani {
+  from {
+    top: -20px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+.error-msg{
+	width: 380px;
+    height: 30px;
+    background-color: #FAE7E7;
+    line-height: 30px;
+    font-size: 12px;
+    border: 1px solid #FA5353;
+    border-radius: 2px;
+    color: #595959;
+    margin-top: 40px;
+    display: none;
+}
